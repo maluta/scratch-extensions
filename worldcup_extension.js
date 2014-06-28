@@ -55,8 +55,8 @@ new (function() {
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['R', 'group of %m.codes', 'get_group'],
-            ['R', 'result of match %m.countries vs %m.countries', 'match_result'],
+            ['R', 'grupo do %m.codes', 'get_group'],
+            ['R', 'resultado do jogo %m.countries vs %m.countries', 'match_result'],
         ],
         menus: {
            countries:['Brazil', 'England', 'Uruguay', 'Italy', 'Costa Rica', 'Netherlands', 'Australia', 'Spain', 'Chile', 'Croatia', 'Cameroon', 'Mexico', 'Colombia', 'Ivory Coast', 'Greece', 'Japan', 'Iran', 'Argentina', 'Nigeria', 'Bosnia and Herzegovina', 'France', 'Switzerland', 'Ecuador', 'Honduras', 'Germany','Ghana', 'Portugal', 'USA', 'Belgium', 'Russia', 'Algeria', 'Korea Republic'],
@@ -64,5 +64,5 @@ new (function() {
         }};
 
     // Register the extension
-    ScratchExtensions.register('World Cup', descriptor, ext);
+    ScratchExtensions.register('Copa do Mundo', descriptor, ext);
 })();
